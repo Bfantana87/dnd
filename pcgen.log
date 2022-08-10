@@ -1,0 +1,59 @@
+03:02:22.359 INFO main Main:138 Starting PCGen v6.08.00 RC8
+03:02:22.536 INFO main LanguageBundle:134 Initialising language bundle with locale en_US.
+03:13:13.123 INFO Thread-2 SourceFileLoader:534 Loading game 35e and sources [3.5 RSRD Divine, Arms and Equipment Guide, Book of Exalted Deeds, Book of Vile Darkness, Champions of Ruin, Champions of Valor, Cityscape: An Essential Guide to Urban Adventuring, Complete Adventurer, Complete Arcane, Complete Champion, Complete Divine, Complete Mage, Complete Psionic, Complete Scoundrel, Complete Warrior, Draconomicon, Dragon Magic, Drow of the Underdark, Dungeon Master's Guide II, Dungeons & Dragons - Core Books, Dungeonscape, Epic Level Handbook, Expanded Psionics Handbook, Faiths and Pantheons, Fey Feature, Fiend Folio, Fiendish Codex II, Frostburn, Heroes of Battle, Heroes of Horror, Libris Mortis: The Book of the Dead, Lords of Madness, Lost Empires of Faerun, Magic Item Compendium, Magic of Faerun, Magic of Incarnum, Miniatures Handbook, Monster Manual II, Monster Manual III, Player's Guide to Faerun, Player's Handbook II, Races of Destiny, Races of Eberron, Races of Faerun, Races of Stone, Races of the Dragon, Races of the Wild, Sandstorm, Savage Species, Secrets of Sarlona, Spellbook Archive, Spell Compendium, Stormwrack, Tome of Battle: The Book of Nine Swords, Tome of Magic, Unearthed Arcana, Unearthed Arcana (Complete), Weapons of Legacy, Wizards of the Coast - Monster Manual 2 (35e), Wizards of the Coast - Monster Manual 4 (35e)].
+03:13:13.199 LSTERROR Thread-2 CDOMControlLoader:146 DEFAULTVARIABLEVALUE found an unsupported format: HANDED (Source: file:/C:/Users/USER/Documents/GitHub/pcgen/data/35e/wizards_of_the_coast/core/universal_rules/ur__datacontrols.lst )
+03:13:13.199 LSTERROR Thread-2 CDOMControlLoader:146 Failed in parsing typeStr: DEFAULTVARIABLEVALUE HANDED|Right for pcgen.cdom.content.DefaultVarValue HANDED Right
+03:13:13.200 LSTERROR Thread-2 CDOMControlLoader:146 Illegal Token 'DEFAULTVARIABLEVALUE' 'HANDED|Right' for pcgen.cdom.content.DefaultVarValue HANDED Right in file:/C:/Users/USER/Documents/GitHub/pcgen/data/35e/wizards_of_the_coast/core/universal_rules/ur__datacontrols.lst
+03:13:31.106 LSTERROR Thread-2 LstUtils:147 Token generated an IllegalArgumentException: : cannot exist in a valid single item (did you try to use a PRE where it is not supported?) Geas (Lesser)   OUTPUTNAME:Scroll (Geas
+03:13:31.107 LSTERROR Thread-2 LstUtils:147 Token processing failed (Source: file:/C:/Users/USER/Documents/GitHub/pcgen/data/35e/wizards_of_the_coast/core/dungeon_masters_guide/dmg_equip.lst )
+03:13:31.107 LSTERROR Thread-2 LstUtils:147 Failed in parsing typeStr: SPELLS Magic Item|TIMES=1|CASTERLEVEL=7|Geas (Lesser)   OUTPUTNAME:Scroll (Geas, Lesser) for pcgen.core.Equipment Scroll (Geas/Lesser)
+03:13:31.107 LSTERROR Thread-2 LstUtils:147 Illegal Token 'SPELLS' 'Magic Item|TIMES=1|CASTERLEVEL=7|Geas (Lesser)   OUTPUTNAME:Scroll (Geas, Lesser)' for pcgen.core.Equipment Scroll (Geas/Lesser) in file:/C:/Users/USER/Documents/GitHub/pcgen/data/35e/wizards_of_the_coast/core/dungeon_masters_guide/dmg_equip.lst
+03:13:34.156 SEVERE Thread-2 BonusLst:144 BONUS: ABILITYPOOL|ELVEN HIGH MAGE BONUS FEAT|FLOOR(ELVENHIGHMAGELVL/5) in Ability Elven High Mage ~ Bonus Feat contained an invalid AbilityCategory ELVEN HIGH MAGE BONUS FEAT (Source: file:/C:/Users/USER/Documents/GitHub/pcgen/data/35e/wizards_of_the_coast/campaign_settings/forgotten_realms/races_of_faerun/rac_abilities_epic.lst )
+03:13:34.268 SEVERE Thread-2 AbstractReferenceManufacturer:878 More than one Equipment with key/name Ring of Universal Energy Resistance (Greater) was built
+03:13:34.269 SEVERE Thread-2 AbstractReferenceManufacturer:892 Sources: file:/C:/Users/USER/Documents/GitHub/pcgen/data/35e/wizards_of_the_coast/supplement/magic_item_compendium/mic_equip.lst, file:/C:/Users/USER/Documents/GitHub/pcgen/data/35e/wizards_of_the_coast/supplement/epic_level_handbook/el_equip.lst
+03:13:34.416 SEVERE Thread-2 AbstractReferenceManufacturer:443 Reference to Constructed Equipment Ring of Universal Energy Resistance (Greater) is ambiguous
+03:13:34.416 SEVERE Thread-2 AbstractReferenceManufacturer:453 Locations: file:/C:/Users/USER/Documents/GitHub/pcgen/data/35e/wizards_of_the_coast/supplement/magic_item_compendium/mic_equip.lst, file:/C:/Users/USER/Documents/GitHub/pcgen/data/35e/wizards_of_the_coast/supplement/epic_level_handbook/el_equip.lst
+03:13:38.743 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Ape Totem ~ Climb (Full)
+03:13:38.743 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Ape Totem ~ Climb (Half)
+03:13:38.744 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Ape Totem ~ Intimidate
+03:13:38.744 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Ape Totem ~ Power Attack
+03:13:38.744 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Bear Totem ~ Grapple Bonus
+03:13:38.744 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Bear Totem ~ Great Fortitude
+03:13:38.745 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Bear Totem ~ Improved Grapple
+03:13:38.745 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Bear Totem ~ Toughness
+03:13:38.745 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Boar Totem ~ Damage Reduction Bonus
+03:13:38.746 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Boar Totem ~ Diehard
+03:13:38.746 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Boar Totem ~ Rage Duration
+03:13:38.746 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Dragon Totem ~ Blind-Fight
+03:13:38.747 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Dragon Totem ~ Frightful Presence
+03:13:38.747 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Dragon Totem ~ Save Bonus
+03:13:38.747 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Eagle Totem ~ Lightning Reflexes
+03:13:38.747 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Eagle Totem ~ Spot Bonus
+03:13:38.748 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Horse Totem ~ Endurance
+03:13:38.748 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Horse Totem ~ Run
+03:13:38.748 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Horse Totem ~ Skill Bonus
+03:13:38.749 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Lion Totem ~ Bonus Damage
+03:13:38.749 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Lion Totem ~ Run
+03:13:38.749 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Lion Totem ~ Skill Bonus
+03:13:38.749 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Serpent Totem ~ Improved Grapple
+03:13:38.750 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Serpent Totem ~ Improved Initiative
+03:13:38.750 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Serpent Totem ~ Save Bonus
+03:13:38.750 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Serpent Totem ~ Skill Bonus
+03:13:38.750 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Wolf Totem ~ Improved Trip
+03:13:38.752 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Barbarian Class Feature Wolf Totem ~ Track
+03:13:44.298 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Freedom ~ Aura of Resolve
+03:13:44.298 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Slaughter ~ Aura of Evil
+03:13:44.298 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Slaughter ~ Cause Disease
+03:13:44.298 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Slaughter ~ Deadly Touch
+03:13:44.299 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Slaughter ~ Debilitating Aura
+03:13:44.299 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Slaughter ~ Detect Good
+03:13:44.299 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Slaughter ~ Rebuke Undead
+03:13:44.299 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Slaughter ~ Smite Good
+03:13:44.299 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Tyranny ~ Aura of Despair
+03:13:44.299 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Tyranny ~ Aura of Evil
+03:13:44.300 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Tyranny ~ Cause Disease
+03:13:44.300 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Tyranny ~ Deadly Touch
+03:13:44.300 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Tyranny ~ Detect Good
+03:13:44.300 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Tyranny ~ Rebuke Undead
+03:13:44.300 SEVERE Thread-2 AbilityCategory:694 Unconstructed Reference: Ability Category Paladin Class Feature Paladin of Tyranny ~ Smite Good
+03:21:01.449 INFO AWT-EventQueue-0 CharacterManager:100 Created new character Unnamed 1.
